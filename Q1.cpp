@@ -2,15 +2,11 @@
 using namespace std;
 
 int main()
-{
-    int num = 96;
-    
-    if (num > 0)
-         cout << "The number is positive";
-    else if (num < 0)
-        cout << "The number is negative";
-    else
-        cout << "Zero";
+{   int num;
+    cout<<"Enter the Number: ;
+    cin>>num;
+    if(num == 0)
+            cout << "Zero"; else (num > 0) ? cout << "Positive": cout << "Negative";
     
     return 0;
 }
